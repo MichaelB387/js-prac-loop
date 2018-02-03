@@ -7,6 +7,8 @@ var i =0
 
 for (i = 0; i < 100; i++) { 
     random()
+    rgbColor = 'rgb(' + red + ',' + green + ',' + blue + ')';
+    html += '<div style="background-color:' + rgbColor + '"></div>';
 }
 
 
